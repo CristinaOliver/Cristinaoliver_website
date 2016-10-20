@@ -1,0 +1,289 @@
+*{
+	font-family: Source Sans Pro;
+
+}
+
+body {
+	background: #F7F7F7;
+	border-right: 10px solid #FF7150;
+	border-left: 10px solid #FF7150;
+}
+
+#profile {
+	margin-top: 5%;
+}
+
+h3 {
+	font-weight: 300;
+	font-size: 35px;
+	margin-top: 50px;
+	padding-bottom: 30px;
+	letter-spacing: 2px;
+}
+
+hr {
+    background: none;
+    border: 2px solid #FF7150;
+    width: 33%;
+    border-radius: 2px;
+}
+
+footer {
+	margin-top: 10%;
+}
+
+
+.logo {
+	width:500px;
+	height:auto;
+	max-width:100%;
+}
+
+p.about{
+	font-size: 17px;
+	line-height: 25px;
+}
+
+p.brand-sub{
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 10px;
+	padding: 20px;
+}
+
+p.copyright {
+	color: #DADFE1;
+	font-size: 12px;
+}
+
+span.personal-address{
+	letter-spacing: 2px;
+	font-size: 19px;
+}
+
+
+a {
+    color: #333333;
+    transition: all 0.3s ease 0s;
+ }
+
+a:active,
+a:hover {
+	color: #FF7150;
+  	outline: 0;
+  	text-decoration: none;
+}
+
+.work a {
+  color: #FF7150;
+  border:3px solid transparent;
+  display:inline-block;
+  position:relative;
+  font-size:22px;
+  transition: none;
+}
+
+.work a .rollover span{
+  font-size:14px;
+  letter-spacing: 2px;
+}
+
+.work a:hover{
+	border: 3px solid #FF7150;
+}
+
+.work a .rollover{
+  position:absolute;
+  width:100%;
+  height:100%;
+  display:none;
+  z-index:99;
+  top:0;
+  left:0;
+  background: #F7F7F7;
+}
+
+.work a .rollover div{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.work a:hover .rollover{
+  display:block;
+ }
+
+.project-title{
+ 	font-weight: 300;
+ 	font-size: 26px;
+ 	letter-spacing: 4px;
+ }
+
+p.project-explanation{
+	font-size: 15px;
+	line-height: 25px;
+
+}
+
+
+ul.list-inline {
+	letter-spacing: 2px;
+	padding: 0;
+}
+
+.address ul {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.address li .fa {
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #333333;
+    color: #333333;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.fa-envelope-o:before {
+    padding: 25%;
+}
+.row {
+	margin: 30px 0;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff ;
+}
+
+.navbar-default .navbar-brand {
+	float: none;
+    color: #333333;
+    font-weight: 600;
+    font-size: 2.5em;
+    letter-spacing: 5px;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.container-fluid {
+	padding-top: 80px;
+}
+
+
+.main-menu > li {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.main-menu {
+	margin-top: 50px;
+
+}
+
+.sub-menu > li {
+	font-size: 12px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.container-form {
+	padding-top: 5%;
+}
+
+label {
+    font-weight: 600;
+    font-size: 16px;
+    color: #333333;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 2px solid #333333;
+    border-radius: 0;
+}
+
+.btn-social {
+	margin: 20px 0;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background: #333333;
+	border: 2px solid #333333;
+	border-radius: 100px;
+	text-align: center;
+	font-size: 25px;
+	color: #fff;
+	line-height: 45px;
+}
+
+.btn-default {
+	color: #fff;
+    background-color: #FF7150;
+    border-color: #FF7150;
+    margin: 30px 0;
+    float: right;
+}
+
+.btn-default:hover {
+  color: #333333;
+  background-color: #e6e6e6;
+  border-color: #e6e6e6;
+}
+
+#diamond {
+  width: 17px;
+  height: 17px;
+  border: 2px solid #FF7150;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+#circle {
+	width: 4px;
+	height: 4px;
+	background: #FF7150;
+	border-radius: 100px;
+	padding: 0;
+}
+
+
+
+.btn-social:hover,
+.btn-social:focus{
+	color: #fff;
+	opacity: .8;
+	}
+
+@media (min-width: 992px){
+
+.container {
+    width: 1000px;
+}
+
+}
+
