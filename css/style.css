@@ -10,7 +10,13 @@ body {
 }
 
 #profile {
-	margin-top: 5%;
+  background-image: url(../img/foto_about2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right 20px bottom 10px;
+  min-height: 100%;
+  width: 100%;
+
 }
 
 h3 {
@@ -21,11 +27,108 @@ h3 {
 	letter-spacing: 2px;
 }
 
+.presentation-text {
+  font-weight: 700;
+  letter-spacing: 0;
+  font-size: 30px;
+  width: 54%;
+  margin: 0 auto;
+  padding: 4em 0 8em 0;
+}
+
+span.orange-text {
+  color: #FF7150;
+}
+
+h4 {
+  font-weight: 300;
+  letter-spacing: 4px;
+  padding: 1.5em 1.5em;
+  margin: 0;
+  text-align: center;
+  font-family: Source Sans Pro;
+}
+
+
+
 hr {
     background: none;
     border: 2px solid #FF7150;
     width: 33%;
     border-radius: 2px;
+}
+
+.line-separator-skills {
+  height: 2px;
+  background-color: #EBEBEB;
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 1.5em;
+}
+
+.row.i-do-row {
+  margin: 0 0;
+}
+
+.i-do-box{
+  border: 1px solid #EBEBEB;
+  padding: 10px 0px 30px 0px;
+}
+
+.i-do-box a {
+  color: #FF7150;
+}
+
+.i-do-box a:hover {
+  color: #333333;
+}
+
+.i-do-text {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.gif-position {
+  height: 40%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.i-do-icon {
+  max-width: 100%;
+}
+
+.motion-graphics-gif:hover {
+    cursor:pointer; 
+    background:url(../img/plane_flies.gif);
+
+}
+
+p.i-do-explanation {
+  font-size: 15px;
+  line-height: 20px;
+  max-width: 65%;
+  margin: 0 auto;
+  margin-bottom: 1.5em;
+}
+
+.btn-drop-a-line {
+    color: #fff;
+    background-color: #FF7150;
+    border-color: #FF7150;
+    margin: 5em 0;  
+}
+
+.btn-drop-a-line:hover {
+  color: #333333;
+  background-color: #e6e6e6;
+  border-color: #e6e6e6;
+  transition: all 0.3s ease 0s;
+}
+
+.center-button {
+  text-align: center;
+
 }
 
 footer {
@@ -43,6 +146,8 @@ p.about{
 	font-size: 17px;
 	line-height: 25px;
 }
+
+
 
 p.brand-sub{
 	text-transform: uppercase;
@@ -177,7 +282,7 @@ ul.list-inline {
 }
 
 .container-fluid {
-	padding-top: 80px;
+	padding-top: 20px;
 }
 
 
@@ -280,6 +385,7 @@ label {
 	}
 
 @media (min-width: 992px){
+
 
 .container {
     width: 1000px;

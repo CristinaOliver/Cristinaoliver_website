@@ -1,0 +1,161 @@
+.keyart, .keyart_layer {
+	height: 1000px;
+}
+
+#parallax {
+	display: block;
+}
+
+.keyart {
+	position: relative;
+	z-index: 10;
+}
+
+.keyart_layer {
+	background-position: bottom center;
+	background-size: auto 1038px;
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
+}
+.keyart_layer.parallax {
+	position: fixed;
+}
+	#keyart-0 {
+		background-image: url('../img/parallax/keyart-1.png');
+		background-color: #ffaf1b;
+	}
+	#keyart-1 {
+		background-image: url('../img/parallax/keyart-2.png');
+	}
+	#keyart-2 {
+		background-image: url('../img/parallax/keyart-3.png');
+	}
+	#keyart-3 {
+		background-image: url('../img/parallax/keyart-4.png');
+	}
+	#keyart-4 {
+		background-image: url('../img/parallax/keyart-5.png');
+	}
+	#keyart-5 {
+		background-image: url('../img/parallax/keyart-6.png');
+	}
+	#keyart-6 {
+		background-image: url('../img/parallax/keyart-7.png');
+	}
+	#keyart-scrim {
+		background-color: #ffaf00;
+		opacity: 0;
+	}
+
+/*@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi){ 
+   	#keyart-0 {
+		background-image: url('../images/parallax/parallax0@2x.png');
+		background-color: #ffaf1b;
+	}
+	#keyart-1 {
+		background-image: url('../images/parallax/parallax1@2x.png');
+	}
+	#keyart-2 {
+		background-image: url('../images/parallax/parallax2@2x.png');
+	}
+	#keyart-3 {
+		background-image: url('../images/parallax/parallax3@2x.png');
+	}
+	#keyart-4 {
+		background-image: url('../images/parallax/parallax4@2x.png');
+	}
+	#keyart-5 {
+		background-image: url('../images/parallax/parallax5@2x.png');
+	}
+	#keyart-6 {
+		background-image: url('../images/parallax/parallax6@2x.png');
+	}
+	#keyart-7 {
+		background-image: url('../images/parallax/parallax7@2x.png');
+	}
+	#keyart-8 {
+		background-image: url('../images/parallax/parallax8@2x.png');
+	}
+}
+
+
+
+
+/* {
+  box-sizing: border-box;
+}
+
+.parallax {
+  -webkit-perspective: 100px;
+          perspective: 100px;
+  max-height: 1000px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+margin-left: -775px;
+}
+
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer img {
+	width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+
+#maincontain {
+    background-color: #fff;
+    position: relative;
+    z-index: 98;
+     margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: top;
+}
+
+.parallax__layer__0 {
+  -webkit-transform: translateZ(-250px) scale(3.5);
+          transform: translateZ(-250px) scale(3.5);
+}
+
+.parallax__layer__1 {
+  -webkit-transform: translateZ(-200px) scale(3);
+          transform: translateZ(-200px) scale(3);
+}
+
+.parallax__layer__2 {
+  -webkit-transform: translateZ(-150px) scale(2.5);
+          transform: translateZ(-150px) scale(2.5);
+}
+
+.parallax__layer__3 {
+  -webkit-transform: translateZ(-100px) scale(2);
+          transform: translateZ(-100px) scale(2);
+}
+
+.parallax__layer__4 {
+  -webkit-transform: translateZ(-50px) scale(1.5);
+          transform: translateZ(-50px) scale(1.5);
+}
+
+.parallax__layer__5 {
+  -webkit-transform: translateZ(-30px) scale(1);
+          transform: translateZ(-30px) scale(1);
+}
+
+.parallax__layer__6 {
+  -webkit-transform: translateZ(0px);
+          transform: translateZ(0px);
+}*/
